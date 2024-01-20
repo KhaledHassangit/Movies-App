@@ -136,3 +136,34 @@ body {
   letter-spacing: 0;
   line-height: 49px;
 }
+@media (max-width:767px){
+  .img-movie{
+    height: 310px;
+  }
+}
+@media (max-width:767px) {
+  .card-text-details{
+    font-size: 22px;
+    line-height: 35px;
+  }
+}
+@media (max-width:400px){
+  .card-text-details{
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+@media (max-width:400px) {
+  .card-text-title{
+    line-height: 30px !important;
+
+  }
+}
+
+@media (max-width:767px){
+  .card-text-title{
+    line-height: 35px;
+
+  }
+}
+
