@@ -48,7 +48,7 @@ const MoviesDetails = () => {
         <Row className="justify-content-center">
             <Col md="12" xs="12" sm="12" className="mt-1 ">
                 <div className="card-story  d-flex flex-column align-items-start">
-                    <div className="text-end p-4 ">
+                    <div className="text-center p-4 ">
                         <p className="card-text-title border-bottom fs-5">Story: {movie.overview}</p>
                     </div>
                     <div className="text-end px-2">
@@ -57,7 +57,7 @@ const MoviesDetails = () => {
                 </div>
             </Col>
         </Row>
-        <Row className="justify-content-center">
+        <Row className="justify-content-center pb-3">
             <Col
                 md="10"
                 xs="12"
@@ -69,7 +69,7 @@ const MoviesDetails = () => {
                 <a href={movie.homepage} target="_blank">
                     <button
                         style={{ backgroundColor: "#b45b35", border: "none" }}
-                        className="btn btn-primary mt-5">
+                        className="btn btn-primary mt-5 ">
                         Watch Now
                     </button>
                 </a>

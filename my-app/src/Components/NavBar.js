@@ -25,12 +25,12 @@ const NavBar = () => {
         <div className='nav-style w-100'>
             <Container>
                 <Row className='pt-2'>
-                    <Col xs="2" lg="1">
+                    <Col xs="3" lg="1">
                         <Rotate>
                         <a href='/'><img src={logo} alt=""  className='logo'/></a>
                         </Rotate>
                     </Col>
-                    <Col  xs="10" lg="11" className='d-flex  align-items-center'>
+                    <Col  xs="9" lg="11" className='d-flex  align-items-center'>
                         <div className='search w-100'>
                             <i class="fa fa-search"></i>
                             <input  onChange={(e) => onSearch(e.target.value)} type='text' placeholder='Serch' className='form-control'/>
