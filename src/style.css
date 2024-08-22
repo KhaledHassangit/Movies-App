@@ -1,7 +1,7 @@
 body {
-  margin: 0;
-  width:100%;
-  overflow-x: hidden;
+  margin: 0 ;
+  width:100vw !important;
+  overflow-x: hidden !important;
 }
 .color-body {
   background-color: #212529;
@@ -142,6 +142,17 @@ body {
   .img-movie{
     height: 310px;
   }
+  .card{
+    width: 90%;
+    margin: auto auto;
+  }
+ input.form-control{
+  width: 80%;
+ }
+ .logo{
+  width: 65px;
+  height: 65px;
+ }
 }
 @media (max-width:767px) {
   .card-text-details{

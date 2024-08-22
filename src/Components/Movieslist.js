@@ -5,6 +5,7 @@ import AdvancedPagination from './Pagenation'
 import { useSelector,useDispatch } from 'react-redux';
 import { getAllMoviesR } from "../Redux/Action/MovieAction";
 import { useEffect,useState } from 'react';
+import { Fade } from 'react-awesome-reveal';
 
 const Movieslist = () => {
 
@@ -34,6 +35,7 @@ const Movieslist = () => {
             {
                 Movies.length >= 1 ? (Movies.map((movie)=>{
                     return (
+
                             <CardMovie key={movie.id} movie={movie}/>
                     )
                 })): 
